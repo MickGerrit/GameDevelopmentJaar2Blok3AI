@@ -1,0 +1,53 @@
+tree("Root")
+	fallback
+		tree "Dodge"
+		tree "Heal"
+		tree "Fight"
+		tree "ChasePlayer"
+
+
+tree ("ChasePlayer") 
+	sequence
+		SetCurrentRotation(0.0)
+		MoveToPlayer()
+
+tree ("SprintToPlayer") 
+	sequence
+		sequence
+			not playerInAttackRange
+			Sprint()
+			Wait(0.4)
+		Succeed
+tree ("Dodge")
+	sequence
+		canDodge
+		not playerHasBoomerang
+		IsBoomerangNear
+		DodgeDiagonal()
+		Wait(1.0)
+		SetCurrentRotation(0.0)
+		HasDodged()
+
+
+tree ("Fight")	
+	sequence
+		playerInSprintRange
+		race 
+			while not playerInAttackRange
+				tree "SprintToPlayer"
+			while playerInAttackRange
+				sequence
+					AttackPlayer()
+					Wait(1.0)
+					SetCurrentRotation(0.0)
+		playerInSprintRange
+
+tree ("Heal")
+	sequence
+		IsLowHealth
+		sequence
+			SetCurrentRotation(0.0)
+			SetTargetToRandomHealthPoint()
+			HealFromPickUp()
+		Wait(0.5)
+		MoveToPlayer()

@@ -1,0 +1,2 @@
+D:\mick\GameDevelopment\HKU\Jaar2_Blok4\ProjectVrij\Githubv3\TwindstickSurvivalV2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\mick\GameDevelopment\HKU\Jaar2_Blok4\ProjectVrij\Githubv3\TwindstickSurvivalV2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

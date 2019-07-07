@@ -1,0 +1,40 @@
+tree("Root")
+	fallback
+		tree "Recharge"
+		tree "Hurt"
+		tree "HealEnemy"
+		tree "Fight"
+
+tree("Fight")
+	sequence
+		SetTargetPositionTowardsPlayer()
+		Move()
+		Wait(0.5)
+		CalculateTargetRotation()
+		RotateTowardsPlayer()
+		Wait(0.5)
+		Shoot()
+		Wait(1.0)
+tree ("Hurt")
+	while gotHurt
+		sequence
+			race
+				RotateAfterHit()
+				repeat
+					sequence
+						Shoot()
+						Wait(0.1)
+				WaitRandom(1.5, 2.5)
+			NotHurtAnymore()
+tree ("Recharge")
+	sequence
+		NeedToRecharge
+		not EnemyRequestsToHeal
+		GenerateHealthPickUps()
+tree ("HealEnemy")
+	while EnemyRequestsToHeal
+		sequence
+			SetTargetToSafePosition()
+			Move()
+
+
