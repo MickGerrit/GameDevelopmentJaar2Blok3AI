@@ -34,7 +34,7 @@ public class Boomerang : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.tag != "Player") {
+        if (other.tag != "Player" && other.tag != "SpiderWeb") {
             reachedGoal = true;
         }
         if (other.tag == "Enemy") {

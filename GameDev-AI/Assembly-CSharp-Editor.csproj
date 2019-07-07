@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E2711C44-4C50-5F25-EE07-EA7B5CE20120}</ProjectGuid>
+    <ProjectGuid>{F9566E4A-787D-D233-7E81-B7F980EF1A98}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,47 +64,47 @@
   <ItemGroup>
     <Compile Include="Assets\PandaBehaviour\Core\Editor\CreatePandaScriptMenu.cs" />
     <Compile Include="Assets\PandaBehaviour\Core\Editor\PandaBehaviourEditor.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -326,25 +326,25 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="PandaBehaviour">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Assets/PandaBehaviour/Core/PandaBehaviour.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Assets/PandaBehaviour/Core/PandaBehaviour.dll</HintPath>
     </Reference>
     <Reference Include="PandaBehaviourEditor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Assets/PandaBehaviour/Core/Editor/PandaBehaviourEditor.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Assets/PandaBehaviour/Core/Editor/PandaBehaviourEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/mick/GameDevelopment/HKU/TwindstickSurvivalV2 - kopie/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/mick/GameDevelopment/HKU/Jaar2_Blok3/MickGerritsen_KernModuleGameDev-AI/GameDev-AI/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -703,7 +703,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{2D6C31E4-C24F-EE0F-A423-821A8BEB7BCB}</Project>
+      <Project>{02BBAA9D-5712-5A8C-F697-326D02FEEA63}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
